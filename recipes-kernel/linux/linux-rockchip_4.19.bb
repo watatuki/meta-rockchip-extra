@@ -4,9 +4,9 @@
 require recipes-kernel/linux/linux-yocto.inc
 require linux-rockchip.inc
 
-inherit freeze-rev local-git
+inherit local-git
 
-SRCREV = "22c6fb94b14a65928161ce7296d684869c4f71a0"
+SRCREV = "7e662b92a9a1762d7eec3eec3831a2bb296e51f0"
 SRC_URI = " \
 	git://github.com/friendlyarm/kernel-rockchip.git;protocol=https;nobranch=1;branch=nanopi4-v4.19.y; \
 	file://defconfig \
